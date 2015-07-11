@@ -19,7 +19,11 @@
 }
 
 +(void)windowDidBecomeMain:(NSNotification*)notification {
-    [[[notification object] container] setSidebarWidthForScripting:150.0];
+    id window = [notification object];
+    
+    if ([window respondsToSelector:@selector(container)]) {
+        [[window container] setSidebarWidthForScripting:150.0];
+    }
 }
 
 @end
