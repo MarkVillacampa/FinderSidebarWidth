@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D584D4F1B50A89800D42B49 /* FinderSidebarWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D584D4C1B50A89800D42B49 /* FinderSidebarWidth.m */; };
+		53AAF0C613C95AE000840005 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AAF0C513C95AE000840005 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D584D4B1B50A89800D42B49 /* FinderSidebarWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinderSidebarWidth.h; path = FinderSidebarWidth/FinderSidebarWidth.h; sourceTree = "<group>"; };
+		4D584D4C1B50A89800D42B49 /* FinderSidebarWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinderSidebarWidth.m; path = FinderSidebarWidth/FinderSidebarWidth.m; sourceTree = "<group>"; };
+		4D584D4E1B50A89800D42B49 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = FinderSidebarWidth/Prefix.pch; sourceTree = "<group>"; };
+		4D584D511B50A8CF00D42B49 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AAF08B13C9502C00840005 /* FinderSidebarWidth.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderSidebarWidth.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AAF0C513C95AE000840005 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AAF08813C9502C00840005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AAF0C613C95AE000840005 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53AAF08013C9502C00840005 = {
+			isa = PBXGroup;
+			children = (
+				4D584D511B50A8CF00D42B49 /* Info.plist */,
+				4D584D4B1B50A89800D42B49 /* FinderSidebarWidth.h */,
+				4D584D4C1B50A89800D42B49 /* FinderSidebarWidth.m */,
+				4D584D4E1B50A89800D42B49 /* Prefix.pch */,
+				53AAF08D13C9502C00840005 /* Frameworks */,
+				53AAF08C13C9502C00840005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53AAF08C13C9502C00840005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AAF08B13C9502C00840005 /* FinderSidebarWidth.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53AAF08D13C9502C00840005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53AAF0C513C95AE000840005 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53AAF08A13C9502C00840005 /* FinderSidebarWidth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AAF09913C9502C00840005 /* Build configuration list for PBXNativeTarget "FinderSidebarWidth" */;
+			buildPhases = (
+				53AAF08713C9502C00840005 /* Sources */,
+				53AAF08813C9502C00840005 /* Frameworks */,
+				53AAF08913C9502C00840005 /* Resources */,
+				53AAF0C413C95A2400840005 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinderSidebarWidth;
+			productName = FinderSidebarWidth;
+			productReference = 53AAF08B13C9502C00840005 /* FinderSidebarWidth.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AAF08213C9502C00840005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dailymotion;
+			};
+			buildConfigurationList = 53AAF08513C9502C00840005 /* Build configuration list for PBXProject "FinderSidebarWidth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53AAF08013C9502C00840005;
+			productRefGroup = 53AAF08C13C9502C00840005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AAF08A13C9502C00840005 /* FinderSidebarWidth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53AAF08913C9502C00840005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53AAF0C413C95A2400840005 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -Rf \"/Library/Application Support/SIMBL/Plugins/${FULL_PRODUCT_NAME}\"\ncp -Rfv \"${TARGET_BUILD_DIR}/${FULL_PRODUCT_NAME}\" \"/Library/Application Support/SIMBL/Plugins/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AAF08713C9502C00840005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D584D4F1B50A89800D42B49 /* FinderSidebarWidth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53AAF09713C9502C00840005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_OPENMP_FLAGS = "-fopenmp";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53AAF09813C9502C00840005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_OPENMP_FLAGS = "-fopenmp";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53AAF09A13C9502C00840005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = FinderSidebarWidth/Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = FinderSidebarWidth;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		53AAF09B13C9502C00840005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = FinderSidebarWidth/Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = FinderSidebarWidth;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AAF08513C9502C00840005 /* Build configuration list for PBXProject "FinderSidebarWidth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AAF09713C9502C00840005 /* Debug */,
+				53AAF09813C9502C00840005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AAF09913C9502C00840005 /* Build configuration list for PBXNativeTarget "FinderSidebarWidth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AAF09A13C9502C00840005 /* Debug */,
+				53AAF09B13C9502C00840005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53AAF08213C9502C00840005 /* Project object */;
+}
